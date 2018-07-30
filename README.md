@@ -2,6 +2,7 @@
 Machine Learning: LinearRegression for Price Prediction
 
 ![version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)
+[![CodeFactor](https://www.codefactor.io/repository/github/tgey/linearreg/badge/master)](https://www.codefactor.io/repository/github/tgey/linearreg/overview/master)
 ![python](https://img.shields.io/badge/python-3.5.2-blue.svg)
 
 ## Introduction
