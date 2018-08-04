@@ -12,7 +12,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 def main(argv, prediction_days=30):
     df = pd.read_csv(
-    'datasets/coinbaseUSD_1-min_data_2014-12-01_to_2018-06-27.csv')
+    'dataset.csv')
     df['date'] = pd.to_datetime(df['Timestamp'], unit='s').dt.date
     group = df.groupby('date')
     Real_Price = group['Weighted_Price'].mean()
