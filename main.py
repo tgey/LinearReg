@@ -64,7 +64,8 @@ def main(argv, prediction_days=30):
     plt.xticks(())
     plt.yticks(())
 
-    plt.show()
+    if len(argv) >= 2 and argv[1] == '-m':
+        plt.show()
 
 
 
