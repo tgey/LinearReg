@@ -2,6 +2,7 @@
 Machine Learning: LinearRegression for Price Prediction
 
 [![Build Status](https://travis-ci.com/tgey/LinearReg.svg?branch=master)](https://travis-ci.com/tgey/LinearReg)
+[![Coverage Status](https://coveralls.io/repos/github/tgey/LinearReg/badge.svg?branch=master)](https://coveralls.io/github/tgey/LinearReg?branch=master)
 [![CodeFactor](https://www.codefactor.io/repository/github/tgey/linearreg/badge/master)](https://www.codefactor.io/repository/github/tgey/linearreg/overview/master)
 ![python](https://img.shields.io/badge/python-3.5.2-blue.svg)
 
