@@ -13,6 +13,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 
 def main(argv, prediction_days=30):
+    # Loading Dataset
     df = pd.read_csv(
     'dataset.csv')
     df['date'] = pd.to_datetime(df['Timestamp'], unit='s').dt.date
@@ -27,6 +28,7 @@ def main(argv, prediction_days=30):
     df_train = Real_Price[:len(Real_Price)-prediction_days]
     df_test = Real_Price[len(Real_Price)-prediction_days:]
 
+    # Preparation of the set
     training_set = df_train.values
     training_set = training_set.reshape(-1, 1)
     sc = MinMaxScaler()
