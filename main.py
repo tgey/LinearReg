@@ -71,7 +71,5 @@ def main(argv, prediction_days=30):
     if len(argv) >= 2 and argv[1] == '-m':
         plt.show()
 
-
-
 if __name__ == "__main__":
     main(sys.argv)
